@@ -19,6 +19,7 @@ A simple Arduino-based arcade controller. The case is designed in FreeCAD and bu
   * Verify the LEDs blink
 
 # Case Assembly
+![Wiring Diagram](wiring/wiring.png)
 
 # Building and Loading the Code
 * Install Ardunio **Keyboard** library using **Sketch**-->**Include Library**-->**Manage Libraries**
