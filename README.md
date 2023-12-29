@@ -14,6 +14,7 @@ A simple Arduino-based arcade controller. The case is designed in FreeCAD and bu
 * Open Arduino IDE on PC
 * Select **File**->**Examples**->**01.Basics**->**Blink**
 * Select **Tools**->**Board**->**Arduino/Genuino Micro**
+* Select serial port using **Tools** -> **Port:**
 * Load code to the board by selecting **Sketch**->**Upload**
   * Verify the LEDs blink
 
