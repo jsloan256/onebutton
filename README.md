@@ -12,17 +12,18 @@ A simple Arduino-based arcade controller. The case is designed in FreeCAD and bu
 ## Test Osoyoo Pro Micro
 * Connect Osoyoo to the laptop via a micro-USB cable. The card should enumerate with the drivers installed by the Arduino IDE. Verify by opening **Device Manager** and looking under **Ports (COM & LPT)** for **Arduino Micro (COM.)**.
 * Open Arduino IDE on PC
-* Select **File**->**Examples**->**01.Basics**->**Blink**
-* Select **Tools**->**Board**->**Arduino/Genuino Micro**
-* Select serial port using **Tools** -> **Port:**
-* Load code to the board by selecting **Sketch**->**Upload**
+* Select **File**-->**Examples**-->**01.Basics**-->**Blink**
+* Select **Tools**-->**Board**-->**Arduino/Genuino Micro**
+* Select serial port using **Tools**-->**Port:**
+* Load code to the board by selecting **Sketch**-->**Upload**
   * Verify the LEDs blink
-
-# Custom Console Panel
 
 # Case Assembly
 
 # Building and Loading the Code
+* Install Ardunio **Keyboard** library using **Sketch**-->**Include Library**-->**Manage Libraries**
+* Open driver/driver.ino sketch
+* Load code to the board by selecting **Sketch**-->**Upload**
 
 # References
 * [Arduino Leonardo/Micro As Game Controller/Joystick](https://www.instructables.com/id/Arduino-LeonardoMicro-as-Game-ControllerJoystick/)
